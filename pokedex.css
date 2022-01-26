@@ -1,0 +1,66 @@
+html { 
+    background: url(./img/clouds_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.main {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 10px;
+    width: 200px;
+    height: 280px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.fire_type {
+    background-color: rgb(231, 144, 94);
+}
+.psy_type {
+    background-color:rgb(229, 155, 213)
+}
+.sinister_type {
+    background-color: gray;
+}
+.dragon_type {
+    background-color:rgb(108, 63, 129);
+}
+.water_type {
+    background-color:rgb(65, 127, 241);
+}
+.plant_type {
+    background-color: rgb(73, 196, 73);
+}
+.electric_type {
+    background-color: rgb(235, 220, 88);
+}
+img {
+    height: 130px;
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+.pokemon_bg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(190, 212, 211);
+}
+.pokemon_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+}
+
