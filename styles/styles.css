@@ -1,5 +1,5 @@
 html { 
-    background: url(./img/clouds_background.png) no-repeat center center fixed;
+    background: url(../img/clouds_background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,10 +45,16 @@ html {
 .electric_type {
     background-color: rgb(235, 220, 88);
 }
+.ghost_type {
+    background-color: rgb(60, 60, 63);
+}
+.rock_type {
+    background-color:rgb(201, 148, 50)
+}
 img {
-    height: 130px;
+    height: 140px;
     position: relative;
-    right: 20px;
+    right: 30px;
     bottom: 10px;
 }
 .pokemon_bg {
@@ -62,5 +68,15 @@ img {
     flex-direction: column;
     justify-content: space-around;
     height: 90px;
+}
+p {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 800;
+}
+.pokemon_type p {
+    font-size: small;
+    font-weight: 100;
 }
 
