@@ -1,5 +1,5 @@
-# kodemia_pokedex
+# Pokedex
 Pokedex con tarjetas de pokemon
 
 Github pages:
-https://fandopg.github.io/kodemia_pokedex/
+https://fandopg.github.io/pokedex/
